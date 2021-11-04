@@ -1,6 +1,8 @@
 ///<reference path = "models/drag-drop-interface.ts"/>
 ///<reference path = "models/project-model.ts"/>
 ///<reference path = "state/project-state.ts"/>
+import { Draggable } from "./models/drag-drop-interface";
+import { autobind } from "./decorators/auto-bind";
 
 namespace App {
   // autobind decorator
