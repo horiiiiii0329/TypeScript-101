@@ -10,7 +10,9 @@ namespace App {
     }
   }
 
-  export class ProjectState extends State<Project> {
+  export const something = "...";
+
+  export default class ProjectState extends State<Project> {
     private projects: Project[] = [];
     private static instance: ProjectState;
 
